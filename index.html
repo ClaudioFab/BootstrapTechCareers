@@ -2,7 +2,7 @@
 <html lang="pt-br">
 
 <head>
-    <!-- Incluir Bootstrap CSS e Icons -->
+    <!-- Incluir Bootstrap CSS e Icons --------------------------->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tech Careers</title>
@@ -15,11 +15,13 @@
 </head>
 
 <body>
+
     <!-- Barra de Navegação (Navbar):
   
     Falta - Links para "Vagas", "Cursos" e "Área do Candidato" -->
-
-
+    <!---------------------------------------------------------------------->
+    <!----------------------- Navbar --------------------------------------->
+    <!---------------------------------------------------------------------->
     <nav class="navbar navbar-expand-lg bg-primary navbar-dark pt-3 pb-3 ps-5 pe-5">
         <div class="container-fluid ">
 
@@ -80,41 +82,166 @@
                 <div class="modal-footer">
                     <button type="button" class="btn btn-primary">Entrar</button>
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                    
+
                 </div>
             </div>
         </div>
     </div>
 
 
-
-
-
-    <!-- Hero Section -->
-    <!-- Seção Vagas -->
-    <!-- Seção Cursos -->
-    <!-- Rodapé -->
-    <!-- Modais -->
-    <!-- Incluir Bootstrap JS -->
-
-
     <!-- Cabeçalho -->
     <!-- Nome da empresa - Logo - Slogan - informações -->
-    <header>
-        <!-- <h1>Byte Solutions</h1>
-        <p>Soluções simples para empresas modernas</p> -->
+    <header class="bg-dark">
+        <!---------------------------------------------------------------------->
+        <!------------------- Hero Section ------------------------------------->
+        <!---------------------------------------------------------------------->
+        <section class="container bg-dark text-white py-5">
+            <div class="row px-md-5 mx-md-5 align-items-center">
+                <div class="col-sm-6 align-items-center">
+                    <h1 class="display-5 fw-bold mb-3">Sua carreira em tecnologia começa aqui</h1>
+
+                    <p>Conectamos talentos tech às melhores oportunidades do mercado.</p>
+
+                    <div class="d-flex gap-3">
+                        <button class="btn btn-primary px-4 py-2 fw-semibold" type="button">Ver Vagas</button>
+
+                        <button class="btn btn-outline-light px-4 py-2 fw-semibold" type="button">Cursos
+                            Gratuitos</button>
+
+                    </div>
+
+
+                </div>
+                <div class="col-sm-6 ">
+                    <img src="img/maosDadas.png" WIDTH=550 HEIGHT=300 class="rounded-3 d-block mx-auto"
+                        alt="imagem aperto de maos">
+                </div>
+            </div>
+
+        </section>
+
     </header>
+
+
+
+    <br><br><br><br>
     <!-- Area de navegação -->
+    <!---------------------------------------------------------------------->
+    <!----------------------- Seção Vagas ---------------------------------->
+    <!---------------------------------------------------------------------->
+
+
+    <!-- Primeiro card -->
+    <div class="card" style="width: 18rem;">
+
+        <div class="card-body">
+            <span class="badge bg-success mb-2">Remoto</span>
+            <h5 class="card-title">Desenvolvedor Front-end</h5>
+            <p class="card-text ">HTML, CSS, JavaScript e React</p>
+            <p><i class="bi bi-square-fill me-2 text-black-50"></i>Tech Solutions Inc.</p>
+
+        </div>
+        <div class="list-group list-group-flush">
+            <div class="card-body">
+                <a href="#" class="btn btn-primary w-100">Candidatar-se</a>
+            </div>
+        </div>
+
+    </div>
+
+    <br>
+    <br>
+
+    <!-- Segundo card -->
+    <div class="card" style="width: 18rem;">
+
+        <div class="card-body">
+            <span class="badge bg-warning text-dark mb-2">Remoto</span>
+            <h5 class="card-title">Desenvolvedor Front-end</h5>
+            <p class="card-text ">HTML, CSS, JavaScript e React</p>
+            <p><i class="bi bi-square-fill me-2 text-black-50"></i>Tech Solutions Inc.</p>
+
+        </div>
+        <div class="list-group list-group-flush">
+            <div class="card-body">
+                <a href="#" class="btn btn-primary w-100">Candidatar-se</a>
+            </div>
+        </div>
+
+    </div>
+    <br>
+    <br>
+
+    <!-- Terceiro card -->
+    <div class="card" style="width: 18rem;">
+
+        <div class="card-body">
+            <span class="badge bg-info text-dark mb-2">Remoto</span>
+            <h5 class="card-title">Desenvolvedor Front-end</h5>
+            <p class="card-text ">HTML, CSS, JavaScript e React</p>
+            <p><i class="bi bi-square-fill me-2 text-black-50"></i>Tech Solutions Inc.</p>
+
+        </div>
+        <div class="list-group list-group-flush">
+            <div class="card-body">
+                <a href="#" class="btn btn-primary w-100">Candidatar-se</a>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+    <br><br><br><br>
     <nav>
         <!-- <a href="#inicio">Inicio</a>
         <a href="#servico">Serviços</a>
         <a href="#contato">Contatos</a> -->
     </nav>
 
-    <!-- Conteúdo principal da página-->
-    <main>
-        <!-- Primeira sessão -->
 
+
+
+    <!-- Conteúdo principal da página-->
+
+    <!-- Seção Cursos ----------------------------------->
+
+    <div class="card" style="width: 18rem;">
+        <img src="img/doge1.jpg" class="card-teste-doge" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
+                content.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">An item</li>
+            <li class="list-group-item">A second item</li>
+            <li class="list-group-item">A third item</li>
+        </ul>
+        <div class="card-body">
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
+        </div>
+    </div>
+
+
+
+
+    <!-- Rodapé ----------------------------------------->
+    <!-- Modais ----------------------------------------->
+    <!-- Incluir Bootstrap JS --------------------------->
+    <main>
+        <section>
+
+            <div>
+
+            </div>
+
+        </section>
 
     </main>
 
